@@ -15,6 +15,18 @@
 		18A5405322827DC600670F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5405222827DC600670F7E /* main.m */; };
 		18A5405D22827DC900670F7E /* recordPushServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5405C22827DC900670F7E /* recordPushServiceTests.m */; };
 		18A5406822827DC900670F7E /* recordPushServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5406722827DC900670F7E /* recordPushServiceUITests.m */; };
+		18A54077228284BE00670F7E /* CDPAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A54075228284BB00670F7E /* CDPAudioRecorder.m */; };
+		18A54085228284D300670F7E /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5407A228284D300670F7E /* amrFileCodec.m */; };
+		18A54086228284D300670F7E /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A54083228284D300670F7E /* libopencore-amrnb.a */; };
+		18A54087228284D300670F7E /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A54084228284D300670F7E /* libopencore-amrwb.a */; };
+		18A5408A22828D3800670F7E /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5408922828D3800670F7E /* LameTool.m */; };
+		18A540D42282A6B300670F7E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A540C82282A6B300670F7E /* AFHTTPSessionManager.m */; };
+		18A540D52282A6B300670F7E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A540CB2282A6B300670F7E /* AFNetworkReachabilityManager.m */; };
+		18A540D62282A6B300670F7E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A540CD2282A6B300670F7E /* AFSecurityPolicy.m */; };
+		18A540D72282A6B300670F7E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A540CF2282A6B300670F7E /* AFURLRequestSerialization.m */; };
+		18A540D82282A6B300670F7E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A540D12282A6B300670F7E /* AFURLResponseSerialization.m */; };
+		18A540D92282A6B300670F7E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A540D32282A6B300670F7E /* AFURLSessionManager.m */; };
+		18A540E02282B25700670F7E /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A540DF2282B25700670F7E /* libmp3lame.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,33 @@
 		18A5406322827DC900670F7E /* recordPushServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recordPushServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A5406722827DC900670F7E /* recordPushServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recordPushServiceUITests.m; sourceTree = "<group>"; };
 		18A5406922827DC900670F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A54075228284BB00670F7E /* CDPAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPAudioRecorder.m; sourceTree = "<group>"; };
+		18A54076228284BD00670F7E /* CDPAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPAudioRecorder.h; sourceTree = "<group>"; };
+		18A54079228284D300670F7E /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		18A5407A228284D300670F7E /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		18A5407D228284D300670F7E /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		18A5407E228284D300670F7E /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		18A54080228284D300670F7E /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		18A54081228284D300670F7E /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		18A54083228284D300670F7E /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		18A54084228284D300670F7E /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		18A5408822828D3800670F7E /* LameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LameTool.h; sourceTree = "<group>"; };
+		18A5408922828D3800670F7E /* LameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LameTool.m; sourceTree = "<group>"; };
+		18A540C72282A6B300670F7E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		18A540C82282A6B300670F7E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		18A540C92282A6B300670F7E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		18A540CA2282A6B300670F7E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		18A540CB2282A6B300670F7E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		18A540CC2282A6B300670F7E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		18A540CD2282A6B300670F7E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		18A540CE2282A6B300670F7E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		18A540CF2282A6B300670F7E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		18A540D02282A6B300670F7E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		18A540D12282A6B300670F7E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		18A540D22282A6B300670F7E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		18A540D32282A6B300670F7E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		18A540DD2282B25700670F7E /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		18A540DF2282B25700670F7E /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A540E02282B25700670F7E /* libmp3lame.a in Frameworks */,
+				18A54087228284D300670F7E /* libopencore-amrwb.a in Frameworks */,
+				18A54086228284D300670F7E /* libopencore-amrnb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +147,13 @@
 				18A5404422827DB300670F7E /* AppDelegate.m */,
 				18A5404622827DB300670F7E /* ViewController.h */,
 				18A5404722827DB300670F7E /* ViewController.m */,
+				18A54076228284BD00670F7E /* CDPAudioRecorder.h */,
+				18A54075228284BB00670F7E /* CDPAudioRecorder.m */,
+				18A5408822828D3800670F7E /* LameTool.h */,
+				18A5408922828D3800670F7E /* LameTool.m */,
+				18A540DA2282B25700670F7E /* fat-lame */,
+				18A540C62282A6B300670F7E /* AFNetworking */,
+				18A54078228284D300670F7E /* AMR */,
 				18A5404922827DB300670F7E /* Main.storyboard */,
 				18A5404C22827DC600670F7E /* Assets.xcassets */,
 				18A5404E22827DC600670F7E /* LaunchScreen.storyboard */,
@@ -130,6 +179,106 @@
 				18A5406922827DC900670F7E /* Info.plist */,
 			);
 			path = recordPushServiceUITests;
+			sourceTree = "<group>";
+		};
+		18A54078228284D300670F7E /* AMR */ = {
+			isa = PBXGroup;
+			children = (
+				18A54079228284D300670F7E /* amrFileCodec.h */,
+				18A5407A228284D300670F7E /* amrFileCodec.m */,
+				18A5407B228284D300670F7E /* include */,
+				18A54082228284D300670F7E /* lib */,
+			);
+			path = AMR;
+			sourceTree = "<group>";
+		};
+		18A5407B228284D300670F7E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18A5407C228284D300670F7E /* opencore-amrnb */,
+				18A5407F228284D300670F7E /* opencore-amrwb */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		18A5407C228284D300670F7E /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				18A5407D228284D300670F7E /* interf_dec.h */,
+				18A5407E228284D300670F7E /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		18A5407F228284D300670F7E /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				18A54080228284D300670F7E /* dec_if.h */,
+				18A54081228284D300670F7E /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		18A54082228284D300670F7E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				18A54083228284D300670F7E /* libopencore-amrnb.a */,
+				18A54084228284D300670F7E /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		18A540C62282A6B300670F7E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				18A540C72282A6B300670F7E /* AFHTTPSessionManager.h */,
+				18A540C82282A6B300670F7E /* AFHTTPSessionManager.m */,
+				18A540C92282A6B300670F7E /* AFNetworking.h */,
+				18A540CA2282A6B300670F7E /* AFNetworkReachabilityManager.h */,
+				18A540CB2282A6B300670F7E /* AFNetworkReachabilityManager.m */,
+				18A540CC2282A6B300670F7E /* AFSecurityPolicy.h */,
+				18A540CD2282A6B300670F7E /* AFSecurityPolicy.m */,
+				18A540CE2282A6B300670F7E /* AFURLRequestSerialization.h */,
+				18A540CF2282A6B300670F7E /* AFURLRequestSerialization.m */,
+				18A540D02282A6B300670F7E /* AFURLResponseSerialization.h */,
+				18A540D12282A6B300670F7E /* AFURLResponseSerialization.m */,
+				18A540D22282A6B300670F7E /* AFURLSessionManager.h */,
+				18A540D32282A6B300670F7E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		18A540DA2282B25700670F7E /* fat-lame */ = {
+			isa = PBXGroup;
+			children = (
+				18A540DB2282B25700670F7E /* include */,
+				18A540DE2282B25700670F7E /* lib */,
+			);
+			path = "fat-lame";
+			sourceTree = "<group>";
+		};
+		18A540DB2282B25700670F7E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18A540DC2282B25700670F7E /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		18A540DC2282B25700670F7E /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				18A540DD2282B25700670F7E /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		18A540DE2282B25700670F7E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				18A540DF2282B25700670F7E /* libmp3lame.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +411,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A54077228284BE00670F7E /* CDPAudioRecorder.m in Sources */,
+				18A540D62282A6B300670F7E /* AFSecurityPolicy.m in Sources */,
 				18A5404822827DB300670F7E /* ViewController.m in Sources */,
+				18A5408A22828D3800670F7E /* LameTool.m in Sources */,
+				18A540D82282A6B300670F7E /* AFURLResponseSerialization.m in Sources */,
 				18A5405322827DC600670F7E /* main.m in Sources */,
 				18A5404522827DB300670F7E /* AppDelegate.m in Sources */,
+				18A540D42282A6B300670F7E /* AFHTTPSessionManager.m in Sources */,
+				18A540D72282A6B300670F7E /* AFURLRequestSerialization.m in Sources */,
+				18A540D92282A6B300670F7E /* AFURLSessionManager.m in Sources */,
+				18A540D52282A6B300670F7E /* AFNetworkReachabilityManager.m in Sources */,
+				18A54085228284D300670F7E /* amrFileCodec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +594,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDN9NM99BM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = recordPushService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/recordPushService/AMR/lib",
+					"$(PROJECT_DIR)/recordPushService/lib",
+					"$(PROJECT_DIR)/recordPushService/fat-lame/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sikaoline.recordPushService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,10 +618,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDN9NM99BM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = recordPushService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/recordPushService/AMR/lib",
+					"$(PROJECT_DIR)/recordPushService/lib",
+					"$(PROJECT_DIR)/recordPushService/fat-lame/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sikaoline.recordPushService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
